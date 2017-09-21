@@ -10,7 +10,7 @@ body {
     .breadcrumb{ display: none}
 }
 a {
-	color:inherit;
+	color:blue;
 	text-decoration: none;
 }
 a:hover, a:focus {
