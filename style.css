@@ -610,14 +610,14 @@ a.mod-img:hover  .desc {
 /*无缝滚动*/
 .wrap,.box{margin-bottom:10px; margin-top: 50px;}
 .wrap ul,.wrap .ul{overflow:hidden;clear:both;*zoom:1; margin: 0; padding: 0;}
-.wrap li,.wrap .li{list-style:none;width:210px;margin:0px 20px 0px 20px; }
+.wrap li,.wrap .li{list-style-type: disc;width:210px;margin:0px 20px 0px 20px; }
 .wrap li a,.wrap .li a{}
 
  .mb-gundong{ text-align: center}
 
 @media (max-width: 991px) {
     .wrap,.box{margin-bottom:10px; margin-top: 30px;}
-    .wrap li,.wrap .li{list-style:none;width:100%;margin: 0; padding-bottom: 10px }
+    .wrap li,.wrap .li{list-style:disc;width:100%;margin: 0; padding-bottom: 10px }
     .pc-gundong{ display: none}
 }
 @media (min-width: 992px) {
@@ -786,7 +786,7 @@ a.mod-img:hover  .desc {
 }
 .top-nav ul,
 .top-nav ul li {
-    text-decoration: none;
+    text-decoration: black;
     list-style: circle;
     margin: 0;
 }
